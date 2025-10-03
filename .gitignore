@@ -1,12 +1,15 @@
+# Build outputs
+build/
+dist/
+*.exe
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -28,7 +31,7 @@ venv/
 ENV/
 env/
 
-# IDE
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
@@ -40,6 +43,14 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+temp/
+tmp/
 
 # User data / output folders
 output/
